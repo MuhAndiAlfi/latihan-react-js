@@ -1,0 +1,105 @@
+
+.btn-go-top {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    background-color: #fecb00;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 13px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+.btn-go-top:focus,
+.btn-go-top:hover {
+    top: -25px;
+    background-color: #4083f9;
+}
+
+.hstb {
+    display: inline-block;
+    font-family: "hustbee" !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-size: inherit;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kantor-utama {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 14px;
+    color: #65728b;
+}
+
+.bara-footer-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.icon-bar {
+    background-color: #ffffff;
+    margin-top: 3px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-color: 0;
+    --bs-nav-tabs-border-radius: 0;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    background-color: rgb(223, 223, 223);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #f9f9f9;
+    background-color: #2b2131;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.nav-tabs .nav-link.disabled,
+.nav-tabs .nav-link:disabled {
+    color: black;
+    background-color: rgb(223, 223, 223);
+}
+.social {
+    width: 6px;
+    height: 6px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #65728b;
+    display: inline-block;
+}
+
+.image-background {
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height:139px;
+    width: 100%;
+}
